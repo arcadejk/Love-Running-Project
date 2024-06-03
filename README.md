@@ -1,39 +1,69 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Love Running Club Website Documentation
 
-Welcome,
+## 1. Purpose of the Project
+The Love Running Club website aims to promote running as a sport and healthy lifestyle choice to residents and visitors in Dublin, Ireland. It serves as a platform for both new and experienced runners to find information about club activities, event schedules, and membership opportunities, encouraging community engagement and active living.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## 2. User Stories
+- **As a new visitor**, I want to understand the benefits of joining the club, so I can decide if it matches my interests.
+- **As a potential member**, I want to easily navigate the website, so I can find information about how to sign up.
+- **As a current member**, I want to check upcoming meet-ups and events, so I can plan my participation.
+- **As a visitor**, I want to view the club's gallery and read testimonials, so I can get a feel for the club's activities and atmosphere.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+## 3. Features
+### Implemented Features
+- **Responsive Navigation Menu**: Adapts to various screen sizes and enhances user navigation experience.
+- **Hero Section**: Engages users immediately with attractive visuals and key information about the club's location and activities.
+- **Benefits Section**: Outlines physical and mental health benefits of running with supporting icons for quick reading.
+- **Meet-up Schedule**: Displays upcoming runs with details on location, time, and type of run, facilitating event planning for members.
+- **Social Media Links**: Allows users to connect with the club on various platforms, increasing community interaction and reach.
 
-## Codeanywhere Reminders
+## 4. Future Features
+- **Member Login**: To access personalized training plans and member-only content.
+- **Interactive Calendar**: Allows users to save events to their personal calendars.
+- **Forum**: For members to discuss races, gear, and tips.
+- **Live Chat**: For real-time support and queries.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+## 5. Typography and Color Scheme
+### Typography
+- **Primary Font**: Helvetica Neue for its readability and modern appearance.
+- **Secondary Font**: Arial as a fallback to maintain consistency across different browsers.
 
-`python3 -m http.server`
+### Color Scheme
+- **Primary Colors**: Shades of blue and green, reflecting vitality and outdoor activities.
+- **Accent Colors**: Bright yellow for calls to action, ensuring they stand out.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## 6. Wireframes
+Wireframes for the website were created using Adobe XD and include layouts for mobile, tablet, and desktop views. These are stored in a separate directory and are accessible for review upon request.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+## 7. Technology
+- **HTML5**: For structuring the website.
+- **CSS3**: For styling and responsive design.
+- **JavaScript**: For interactive elements like the navigation menu toggle.
+- **FontAwesome**: For icons used across the website.
 
-`http_server`
+## 8. Testing
+### 8.1 Code Validation
+- **HTML**: Validated using W3C Markup Validation Service.
+- **CSS**: Checked with W3C CSS Validation Service.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### 8.2 Test Cases
+User story-based testing was conducted, and screenshots are available in the testing documentation.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+### 8.3 Fixed Bugs
+- **Navigation Bug**: The toggle menu did not close upon clicking a link. Fixed by adding a JavaScript event listener.
+- **Image Responsiveness**: Some images were not scaling correctly on mobile devices. Adjusted CSS settings to fix.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### 8.4 Supported Screens and Browsers
+- **Screens**: Responsive design supports mobile, tablet, and desktop devices.
+- **Browsers**: Tested on Chrome, Firefox, Safari, and Edge.
 
-To log into the Heroku toolbelt CLI:
+## 9. Deployment
+### 9.1 Via Gitpod
+- Development was done in Gitpod. To set up a similar environment, clone the repository and open it in Gitpod.
+### 9.2 Via GitHub Pages
+- The website is hosted on GitHub Pages. It was deployed directly from the `main` branch, and the root folder is set to `/`.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
+## 10. Credits
+- **Content**: All content was written by the site developer or provided by the club managers.
+- **Media**: Images were sourced from licensed stock photo providers and used with permission from the club.
+- **Acknowledgements**: Thanks to Code Institute for acknowledging us to use the Love Running walkthrough project.
